@@ -1,4 +1,4 @@
 resource "local_file" "abc" {
-    content = "deleted tfstate and tfplan files"
+    content = "push to origin/main from remote/home"
     filename = "${path.module}/abc.txt"
 }
