@@ -1,4 +1,4 @@
 resource "local_file" "abc" {
-    content = "making tfplan"
+    content = "push from home"
     filename = "${path.module}/abc.txt"
 }
